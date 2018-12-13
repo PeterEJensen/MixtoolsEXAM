@@ -19,7 +19,7 @@ public class FindScaleControllerTest {
 
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         MockitoAnnotations.initMocks(this);
         mockMvc = MockMvcBuilders.standaloneSetup(findScaleController).build();
     }

@@ -31,7 +31,7 @@ public class CalculateControllerTest {
 
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         MockitoAnnotations.initMocks(this);
         mockMvc = MockMvcBuilders.standaloneSetup(calculateController).build();
     }
